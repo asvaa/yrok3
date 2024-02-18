@@ -1,0 +1,26 @@
+.App {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 30px;
+}
+
+.bg {
+    width: 600px;
+    height: 400px;
+    background: url(./assets/images/image.jpg) no-repeat center/contain;
+}
+
+/* @media(min-resolution: 2dppx) {
+    .bg {
+        background: url(./assets/images/image@2x\ \(1\).jpg) no-repeat center/contain;
+    }
+}
+
+
+@media(min-resolution: 3dppx) {
+    .bg {
+        background: url(./assets/images/image@3x.jpg) no-repeat center/contain;
+    }
+} */
